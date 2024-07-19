@@ -24,6 +24,6 @@ Inspirado en los clásicos juegos de adivinar números.
 Creado con fines educativos para aprender HTML, CSS y JavaScript.
 
 ## Retroalimentación y soporte
-Si tiene algún comentario, sugerencia o problema con el juego, no dude en abrir un problema. ¡Tu aporte es muy apreciado!
+Si tiene algún comentario, sugerencia o problema con el juego, no dudes en compartirlo. ¡Tu aporte es muy apreciado!
 
 ¡Disfruta el juego! 🎮
