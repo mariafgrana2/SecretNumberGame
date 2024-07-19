@@ -66,6 +66,7 @@ function verifyTry() {
             if (tries > maxTries) {
                 assignInfoElement('h1', 'GAME OVER');
                 assignInfoElement('p', `¡Oh no! Llegaste al límite de intentos 🎲`);
+                alert(`Para intentar de nuevo, actualiza la página.`);
                 document.querySelector('#btry').setAttribute('disabled','true');
                 break;
             } else {
