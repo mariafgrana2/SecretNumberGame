@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    background-image: url(img/code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.container {
+    width: 350px;
+    height: 700px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 15px 35px;
+    margin: 70px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    box-shadow: 4px 4px 10px 10px rgba(1, 8, 14, 0.12);
+    background-image: url(img/ruido_morado_vertical.svg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.container__button {
+    border-radius: 16px;
+    background: #330867;
+    padding: 16px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+}
+
+.container__button:disabled {
+    background: #92BBD0;
+}
+
+
+.container__input {
+    width: 100%;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: none;
+    color: #1875E8;
+    padding: .5rem;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:"Inter", sans-serif;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 36px;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+p,
+button {
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
